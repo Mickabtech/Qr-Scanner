@@ -16,7 +16,7 @@
 .frame{
     background-color: hsl(0, 0%, 100%);
     width: 350px;
-    height: 60%;
+    height: 65%;
     border-radius: 20px;   
 }
 
@@ -41,4 +41,9 @@
     font-family: 'Outfit', sans-serif;
 }
 
+@media only screen and (max-width: 375px) {
+    .frame{
+        height: 85%;
+    }
+  }
 
